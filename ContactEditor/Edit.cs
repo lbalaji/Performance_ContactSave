@@ -53,9 +53,11 @@ namespace ContactEditor
             {
                 using (Asi.Security.SecurityContext.Impersonate("MANAGER"))
                 {
-                    var contact = new CContact(_iMisUser, textBoxId.Text);
-                    contact.FirstName = textBoxFirstName.Text;
-                    contact.LastName = textBoxLastName.Text;
+                    var contact = new CContact(_iMisUser, textBoxId.Text)
+                    {
+                        FirstName = textBoxFirstName.Text,
+                        LastName = textBoxLastName.Text
+                    };
                     if (dateTimePickerDOB.Value != DateTime.Today)
                         contact.BirthDate = dateTimePickerDOB.Value;
                     if (contact.Validate())

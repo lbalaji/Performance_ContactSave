@@ -19,3 +19,4 @@ C:\Development\ASI_Issues\Performance_ContactSave\ContactEditor\bin\Debug\log4ne
 C:\Development\ASI_Issues\Performance_ContactSave\ContactEditor\bin\Debug\paypal_base.dll
 C:\Development\ASI_Issues\Performance_ContactSave\ContactEditor\bin\Debug\ICSharpCode.SharpZipLib.dll
 C:\Development\ASI_Issues\Performance_ContactSave\ContactEditor\bin\Debug\Telerik.Web.UI.dll
+C:\Development\ASI_Issues\Performance_ContactSave\ContactEditor\obj\Debug\ContactEditor.csprojResolveAssemblyReference.cache
